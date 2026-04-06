@@ -1,0 +1,19 @@
+{
+  "name": "person-wiki",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local tooling for an LLM-maintained markdown wiki.",
+  "scripts": {
+    "qmd:init": "node scripts/qmd_store.mjs update && node scripts/qmd_store.mjs embed && node scripts/qmd_store.mjs warmup",
+    "qmd:refresh": "node scripts/qmd_store.mjs update && node scripts/qmd_store.mjs embed",
+    "qmd:update": "node scripts/qmd_store.mjs update",
+    "qmd:embed": "node scripts/qmd_store.mjs embed",
+    "qmd:search": "node scripts/qmd_store.mjs search",
+    "qmd:query": "node scripts/qmd_store.mjs query",
+    "qmd:status": "node scripts/qmd_store.mjs status",
+    "qmd:warm": "node scripts/qmd_store.mjs warmup"
+  },
+  "dependencies": {
+    "@tobilu/qmd": "2.1.0"
+  }
+}

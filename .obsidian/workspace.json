@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "3707e0b5e13d5998",
+    "type": "split",
+    "children": [
+      {
+        "id": "15cc1df450868020",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2601ddb07d8ec359",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/inbox/2026-04-06T144706+1000 What are skills.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-06T144706+1000 What are skills"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "284eb3f4fd4305fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0502818bf3b620a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93145beec808468e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d55cbc99a63ca53d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1e78cc0038919818",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 382.5044631958008
+  },
+  "right": {
+    "id": "5467c600e2c228d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "689c03b50a335eab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df2000f748bf595d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "raw/inbox/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "d61b28d7292f8fee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "raw/inbox/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "8143a3d9dca07558",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e8e360c24a721b7a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5c34c751c88f6979",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "raw/inbox/README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2601ddb07d8ec359",
+  "lastOpenFiles": [
+    "IMPLEMENT_SKILL_LOADER.md",
+    "wiki/analyses/agent-skills-support-checklist.md",
+    "wiki/concepts/skill-support-integration.md",
+    "wiki/concepts/progressive-disclosure-for-skills.md",
+    "wiki/concepts/agent-skills.md",
+    "wiki/sources/adding-skills-support-to-an-agent.md",
+    "wiki/sources/what-are-skills.md",
+    "scripts/qmd_store.mjs",
+    "node_modules/node-llama-cpp/bins/_win-x64.moved.txt",
+    "node_modules/node-llama-cpp/bins/_win-x64-cuda.moved.txt",
+    "node_modules/node-llama-cpp/bins/_win-x64-vulkan.moved.txt",
+    "node_modules/node-llama-cpp/bins/_win-arm64.moved.txt",
+    "node_modules/node-llama-cpp/bins/_mac-x64.moved.txt",
+    "node_modules/node-llama-cpp/bins/_linux-x64.moved.txt",
+    "node_modules/node-llama-cpp/bins/_mac-arm64-metal.moved.txt",
+    "node_modules/node-llama-cpp/bins/_linux-x64-vulkan.moved.txt",
+    "node_modules/node-llama-cpp/bins/_linux-x64-cuda.moved.txt",
+    "node_modules/node-llama-cpp/templates/README.md",
+    "node_modules/ora/node_modules/cli-spinners/readme.md",
+    "node_modules/ora/readme.md",
+    "node_modules/node-llama-cpp/llama/grammars/README.md",
+    "node_modules/node-addon-api/tools/README.md",
+    "node_modules/@tobilu/qmd/README.md",
+    "node_modules/node-llama-cpp/node_modules/isexe/README.md",
+    "node_modules/yargs/README.md",
+    "node_modules/typescript/README.md",
+    "node_modules/typescript/SECURITY.md",
+    "node_modules/sqlite-vec-windows-x64/README.md",
+    "node_modules/node-llama-cpp/node_modules/which/README.md",
+    "node_modules/tree-sitter-javascript/README.md",
+    "node_modules/qs/README.md",
+    "node_modules/lowdb/README.md",
+    "node_modules/tar-fs/node_modules/chownr/README.md",
+    "node_modules/tar-fs/README.md",
+    "node_modules/ajv-formats/README.md",
+    "node_modules/node-api-headers/CONTRIBUTING.md",
+    "raw/assets/pic_07-1920w.avif",
+    "raw/assets/pic_06-1920w.avif",
+    "raw/assets/pic_05-1920w.avif",
+    "raw/assets/pic_04-1920w.avif",
+    "raw/assets/pic_03-1920w.avif",
+    "raw/assets/pic_02-1920w.avif",
+    "raw/assets/pic_01-1920w.avif"
+  ]
+}
