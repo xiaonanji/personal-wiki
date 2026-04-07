@@ -39,3 +39,18 @@ Append-only record of major wiki operations.
 - Updated the index, home page, and open questions to reflect a new agent-skills branch in the wiki.
 - Pages touched: `wiki/sources/what-are-skills.md`, `wiki/sources/adding-skills-support-to-an-agent.md`, `wiki/concepts/agent-skills.md`, `wiki/concepts/progressive-disclosure-for-skills.md`, `wiki/concepts/skill-support-integration.md`, `wiki/analyses/agent-skills-support-checklist.md`, `wiki/index.md`, `wiki/home.md`, `wiki/meta/open-questions.md`.
 - Follow-ups: decide whether this repo should capture concrete skill-client design choices and which trust/discovery rules matter for future implementations.
+
+## [2026-04-06] ingest | Titanic Dataset
+
+- Ingested a compact dataset-description source for the Titanic survival prediction task and filed it as a new machine-learning dataset branch.
+- Created a source page, a lightweight RMS Titanic entity page, a concept page for the prediction task, and a reusable feature-summary analysis.
+- Updated the index, home page, and open questions to reflect the new dataset branch.
+- Pages touched: `wiki/sources/titanic-dataset.md`, `wiki/entities/rms-titanic.md`, `wiki/concepts/titanic-survival-prediction-task.md`, `wiki/analyses/titanic-dataset-feature-summary.md`, `wiki/index.md`, `wiki/home.md`, `wiki/meta/open-questions.md`.
+- Follow-ups: retrieve the full Kaggle schema and decide whether more ML/dataset sources justify a larger branch.
+
+## [2026-04-06] ingest | Titanic Dataset (updated source)
+
+- Re-ingested the modified Titanic raw source and updated the existing Titanic pages in place rather than creating duplicates.
+- Captured two newly visible fields in the raw source: `Cabin` and embarkation port (`Embarked`, spelled `Emarked` in the clip).
+- Narrowed the old uncertainty from "confirm which columns are omitted" to "confirm whether any important columns are still omitted."
+- Pages touched: `wiki/sources/titanic-dataset.md`, `wiki/concepts/titanic-survival-prediction-task.md`, `wiki/analyses/titanic-dataset-feature-summary.md`, `wiki/meta/open-questions.md`.

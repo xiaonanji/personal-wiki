@@ -13,7 +13,7 @@ This is the top-level overview for the knowledge base.
 ## Current State
 
 - The wiki scaffold exists.
-- Four sources have been ingested across three distinct themes.
+- Five sources have been ingested across four distinct themes.
 - `[[index]]` is the navigation catalog.
 - `[[log]]` is the chronological activity record.
 
@@ -24,6 +24,7 @@ This is the top-level overview for the knowledge base.
 - How housing, credit, and fiscal systems react when white-collar income assumptions weaken
 - Performance and decision-making lessons built around compounding small edges and emotional reset
 - Agent-skill architecture, progressive disclosure, and the mechanics of skill-enabled clients
+- Dataset-oriented machine-learning notes, currently seeded by the Titanic prediction task
 
 ## How To Use
 
