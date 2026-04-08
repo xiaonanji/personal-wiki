@@ -3,7 +3,7 @@ type: meta
 title: Log
 status: active
 created: 2026-04-06
-updated: 2026-04-06
+updated: 2026-04-08
 ---
 
 # Log
@@ -54,3 +54,14 @@ Append-only record of major wiki operations.
 - Captured two newly visible fields in the raw source: `Cabin` and embarkation port (`Embarked`, spelled `Emarked` in the clip).
 - Narrowed the old uncertainty from "confirm which columns are omitted" to "confirm whether any important columns are still omitted."
 - Pages touched: `wiki/sources/titanic-dataset.md`, `wiki/concepts/titanic-survival-prediction-task.md`, `wiki/analyses/titanic-dataset-feature-summary.md`, `wiki/meta/open-questions.md`.
+
+## [2026-04-08] ingest | Days Past Due (DPD) Definition - Data & Risk
+
+- Ingested technical Confluence documentation on DPD calculation methodology for Zip products.
+- Created a new fintech/credit-risk branch in the wiki with focus on payment delinquency metrics.
+- Created one source page, one entity page (Zip Co), and three concept pages (DPD, MPD, Arrears Balance).
+- Key insight: Zip uses dual DPD systems - booking system (daily) vs reporting system (monthly for some products).
+- Documented product-specific differences: Zip Pay/Plus use MPD for reporting, Zip Money uses standard DPD.
+- Captured SQL implementation logic and bucketing thresholds ($25 arrears balance, various DPD ranges).
+- Pages touched: `wiki/sources/dpd-definition-data-risk.md`, `wiki/entities/zip-co.md`, `wiki/concepts/days-past-due-dpd.md`, `wiki/concepts/months-past-due-mpd.md`, `wiki/concepts/arrears-balance.md`, `wiki/index.md`, `wiki/log.md`.
+- Follow-ups: investigate business rationale for MPD vs DPD choice, compare default prediction performance between metrics, understand regulatory reporting requirements.

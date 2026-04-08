@@ -127,7 +127,23 @@ def run_qmd(command: str, query: str | None = None) -> int:
         print("QMD wrapper not found.", file=sys.stderr)
         return 1
 
-    args = ["node", str(QMD_SCRIPT), command]
+    # Try to find node executable
+    node_paths = [
+        "C:/Users/sean.ji/node-v24.14.0-win-x64/node.exe",  # User-specific path
+        "node",  # Fallback to system PATH
+    ]
+
+    node_exe = None
+    for path in node_paths:
+        if Path(path).exists() if "/" in path or "\\" in path else True:
+            node_exe = path
+            break
+
+    if not node_exe:
+        print("Node executable not found.", file=sys.stderr)
+        return 1
+
+    args = [node_exe, str(QMD_SCRIPT), command]
     if query:
         args.append(query)
 

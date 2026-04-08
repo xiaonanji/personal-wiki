@@ -113,15 +113,16 @@ When asked to ingest a source:
 
 1. Identify the raw file and read it fully.
 2. If the source references important local images, inspect the relevant images in `raw/assets/`.
-3. Discuss key takeaways with the user when interpretation or prioritization matters.
-4. Create or update a page in `wiki/sources/` for the source.
-5. Update any impacted entity, concept, and analysis pages.
-6. Add newly warranted pages if the source introduces a durable subject that does not yet have a home.
-7. Add contradictions or unresolved tensions to `wiki/meta/contradictions.md`.
-8. Add unanswered but important leads to `wiki/meta/open-questions.md`.
-9. Update `wiki/index.md`.
-10. Append an ingest entry to `wiki/log.md`.
-11. If repo-local `qmd` is available, run `npm run qmd:refresh` after the wiki updates so search stays current.
+3. If the source contains code examples, SQL queries, configuration snippets, or other technical implementation details, preserve them in the source page using appropriate markdown code blocks. Do not summarize or omit code examples.
+4. Discuss key takeaways with the user when interpretation or prioritization matters.
+5. Create or update a page in `wiki/sources/` for the source.
+6. Update any impacted entity, concept, and analysis pages.
+7. Add newly warranted pages if the source introduces a durable subject that does not yet have a home.
+8. Add contradictions or unresolved tensions to `wiki/meta/contradictions.md`.
+9. Add unanswered but important leads to `wiki/meta/open-questions.md`.
+10. Update `wiki/index.md`.
+11. Append an ingest entry to `wiki/log.md`.
+12. If repo-local `qmd` is available, run `npm run qmd:refresh` after the wiki updates so search stays current.
 
 Default expectation: a single source ingest may touch many pages.
 
@@ -189,6 +190,7 @@ After a lint pass:
   - speculation or inference
 - If an inference is important, label it as inference.
 - If evidence is weak or disputed, say so.
+- Preserve code examples, SQL queries, configuration snippets, and technical implementation details from sources using properly-formatted markdown code blocks with language identifiers (e.g., ```sql, ```python, ```yaml).
 
 ## Naming Guidance
 

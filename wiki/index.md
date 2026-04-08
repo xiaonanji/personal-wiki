@@ -3,7 +3,7 @@ type: meta
 title: Index
 status: active
 created: 2026-04-06
-updated: 2026-04-06
+updated: 2026-04-08
 ---
 
 # Index
@@ -23,6 +23,7 @@ The catalog of maintained wiki pages.
 - [[sources/what-are-skills]] - Source note defining skills as `SKILL.md`-anchored task folders with progressive disclosure.
 - [[sources/adding-skills-support-to-an-agent]] - Source note on the full client-side lifecycle for skill discovery, activation, and context management.
 - [[sources/titanic-dataset]] - Source note for a Kaggle-style dataset description of Titanic survival prediction.
+- [[sources/dpd-definition-data-risk]] - Technical specification for Days Past Due (DPD) calculation across Zip products with SQL implementation examples.
 
 ## Entities
 
@@ -31,6 +32,7 @@ The catalog of maintained wiki pages.
 - [[entities/citrini-research]] - Organization page for the research group named in the clip.
 - [[entities/roger-federer]] - Athlete page used as an anchor example for performance compounding and reset discipline.
 - [[entities/rms-titanic]] - Historical ship/event page used as context for the Titanic dataset branch.
+- [[entities/zip-co]] - Australian fintech company offering buy-now-pay-later products (Zip Pay, Zip Plus, Zip Money).
 
 ## Concepts
 
@@ -45,6 +47,9 @@ The catalog of maintained wiki pages.
 - [[concepts/progressive-disclosure-for-skills]] - Tiered loading of skill catalog, instructions, and resources to control context cost.
 - [[concepts/skill-support-integration]] - The client-side lifecycle needed to discover, activate, and preserve skills effectively.
 - [[concepts/titanic-survival-prediction-task]] - Binary classification framing for predicting survival from Titanic passenger features.
+- [[concepts/days-past-due-dpd]] - Credit risk metric tracking days elapsed since payment due date, with product-specific implementation variants.
+- [[concepts/months-past-due-mpd]] - Alternative credit metric counting missed payment cycles rather than calendar days.
+- [[concepts/arrears-balance]] - Monetary amount of debt remaining unpaid after the due date.
 
 ## Analyses
 
