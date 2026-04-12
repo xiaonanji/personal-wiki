@@ -164,16 +164,27 @@
               "icon": "lucide-list",
               "title": "Outline of README"
             }
+          },
+          {
+            "id": "2e5a78b5fc88014b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,7 +194,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "2601ddb07d8ec359",
+  "active": "93145beec808468e",
   "lastOpenFiles": [
     "wiki/analyses/langchain-mcp-adapters-integration-checklist.md",
     "wiki/concepts/mcp-to-langchain-adaptation.md",
