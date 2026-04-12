@@ -3,7 +3,7 @@ type: meta
 title: Log
 status: active
 created: 2026-04-06
-updated: 2026-04-08
+updated: 2026-04-12
 ---
 
 # Log
@@ -65,3 +65,33 @@ Append-only record of major wiki operations.
 - Captured SQL implementation logic and bucketing thresholds ($25 arrears balance, various DPD ranges).
 - Pages touched: `wiki/sources/dpd-definition-data-risk.md`, `wiki/entities/zip-co.md`, `wiki/concepts/days-past-due-dpd.md`, `wiki/concepts/months-past-due-mpd.md`, `wiki/concepts/arrears-balance.md`, `wiki/index.md`, `wiki/log.md`.
 - Follow-ups: investigate business rationale for MPD vs DPD choice, compare default prediction performance between metrics, understand regulatory reporting requirements.
+
+## [2026-04-12] ingest | Context Management for Deep Agents
+
+- Ingested the newest unfiled inbox source, an engineering note about context compression in LangChain's Deep Agents SDK.
+- Created a new source page, a product entity page for Deep Agents SDK, a concept page for agent context compression, and a reusable evaluation checklist.
+- Updated the existing agent-skills branch so "context maintenance" now points to concrete offloading and summarization patterns rather than staying abstract.
+- Updated the home page, index, and open questions to reflect a new long-running-agent context-management branch.
+- Pages touched: `wiki/sources/context-management-for-deep-agents.md`, `wiki/entities/deep-agents-sdk.md`, `wiki/concepts/agent-context-compression.md`, `wiki/concepts/skill-support-integration.md`, `wiki/analyses/agent-context-compression-evaluation-checklist.md`, `wiki/analyses/agent-skills-support-checklist.md`, `wiki/home.md`, `wiki/index.md`, `wiki/meta/open-questions.md`.
+- Follow-ups: compare filesystem-backed compression with other memory patterns, and decide which context-compression guarantees should become baseline expectations for future agent implementations in this wiki.
+
+## [2026-04-12] lint | Fix broken credit-risk bucketing links
+
+- Ran the repo lint during ingest verification and found three broken links to `[[concepts/credit-risk-bucketing]]`.
+- Added the missing concept page and updated the index so the existing credit-risk pages now resolve cleanly.
+- Pages touched: `wiki/concepts/credit-risk-bucketing.md`, `wiki/index.md`.
+- Follow-ups: run broader wiki health checks periodically so small structural gaps do not accumulate between ingests.
+
+## [2026-04-12] query | Compression vs Intelligence in Agents
+
+- Filed a durable analysis in response to the distinction between context preservation and actual intelligence formation.
+- Argued that offloading and summarization support continuity, while stronger abstraction-oriented compression is needed to convert history into reusable knowledge or policy.
+- Pages touched: `wiki/analyses/compression-vs-intelligence-in-agents.md`, `wiki/index.md`.
+- Follow-ups: compare transcript summaries with stronger compression targets such as task-state objects, knowledge graphs, and distilled playbooks.
+
+## [2026-04-12] query | Personal Small Model Plus Cloud Frontier Model
+
+- Filed a durable analysis for the proposed architecture where each user has a local small model that compresses personal history and collaborates with a cloud frontier model.
+- Framed the pattern as a division of labor: local compression, privacy, and preference modeling plus cloud-scale reasoning and world knowledge.
+- Pages touched: `wiki/analyses/personal-small-model-plus-cloud-frontier-model.md`, `wiki/index.md`.
+- Follow-ups: define which user data should remain raw memory versus distilled model state, and compare parameter-based personalization against structured non-parametric memory systems.
