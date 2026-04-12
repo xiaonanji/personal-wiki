@@ -13,7 +13,7 @@ This is the top-level overview for the knowledge base.
 ## Current State
 
 - The wiki scaffold exists.
-- Seven sources have been ingested across six distinct themes.
+- Eight sources have been ingested across seven distinct themes.
 - `[[index]]` is the navigation catalog.
 - `[[log]]` is the chronological activity record.
 
@@ -25,6 +25,7 @@ This is the top-level overview for the knowledge base.
 - Performance and decision-making lessons built around compounding small edges and emotional reset
 - Agent-skill architecture, progressive disclosure, and the mechanics of skill-enabled clients
 - Long-running agent harness design, especially context compression, summarization, and recoverability testing
+- MCP interoperability for LangChain and LangGraph-based agents
 - Dataset-oriented machine-learning notes, currently seeded by the Titanic prediction task
 - Credit risk metrics and implementation in fintech lending products (DPD, MPD, arrears tracking)
 

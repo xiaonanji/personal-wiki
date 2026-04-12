@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/inbox/2026-04-12T161756+1000 Context Management for Deep Agents.md",
+                "file": "raw/inbox/2026-04-12T173021+1000 langchain_mcp_adapters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-12T161756+1000 Context Management for Deep Agents"
+              "title": "2026-04-12T173021+1000 langchain_mcp_adapters"
             }
           }
         ]
@@ -185,6 +185,12 @@
   },
   "active": "2601ddb07d8ec359",
   "lastOpenFiles": [
+    "wiki/analyses/langchain-mcp-adapters-integration-checklist.md",
+    "wiki/concepts/mcp-to-langchain-adaptation.md",
+    "wiki/entities/langchain-mcp-adapters.md",
+    "wiki/sources/langchain-mcp-adapters.md",
+    "raw/inbox/2026-04-12T161756+1000 Context Management for Deep Agents.md",
+    "raw/inbox/2026-04-12T173021+1000 langchain_mcp_adapters.md",
     "wiki/analyses/personal-small-model-plus-cloud-frontier-model.md",
     "wiki/analyses/compression-vs-intelligence-in-agents.md",
     "wiki/concepts/credit-risk-bucketing.md",
@@ -193,7 +199,6 @@
     "wiki/entities/deep-agents-sdk.md",
     "wiki/sources/context-management-for-deep-agents.md",
     "raw/inbox/2026-04-08T174747+1000 Days Past Due (DPD) definition - Data & Risk - Confluence.md",
-    "raw/inbox/2026-04-12T161756+1000 Context Management for Deep Agents.md",
     "wiki/sources/dpd-definition-data-risk.md",
     "wiki/entities/zip-co.md",
     "wiki/concepts/months-past-due-mpd.md",
@@ -216,11 +221,6 @@
     "node_modules/pretty-ms/readme.md",
     "node_modules/onetime/readme.md",
     "node_modules/once/README.md",
-    "node_modules/on-finished/README.md",
-    "node_modules/on-finished/HISTORY.md",
-    "node_modules/object-assign/readme.md",
-    "node_modules/ms/readme.md",
-    "node_modules/ms/license.md",
     "node_modules/proper-lockfile/node_modules/retry/equation.gif",
     "raw/assets/pic_07-1920w.avif",
     "raw/assets/pic_06-1920w.avif",

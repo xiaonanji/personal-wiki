@@ -95,3 +95,11 @@ Append-only record of major wiki operations.
 - Framed the pattern as a division of labor: local compression, privacy, and preference modeling plus cloud-scale reasoning and world knowledge.
 - Pages touched: `wiki/analyses/personal-small-model-plus-cloud-frontier-model.md`, `wiki/index.md`.
 - Follow-ups: define which user data should remain raw memory versus distilled model state, and compare parameter-based personalization against structured non-parametric memory systems.
+
+## [2026-04-12] ingest | LangChain MCP Adapters
+
+- Ingested documentation for the `langchain-mcp-adapters` library as a new MCP interoperability branch under the agent/tooling area of the wiki.
+- Created a source page that preserves the source's Python and config examples, plus a library entity page, a concept page for MCP-to-LangChain adaptation, and a reusable integration checklist.
+- Updated the home page, index, and open questions to reflect a new focus area around MCP, LangChain, and LangGraph interoperability.
+- Pages touched: `wiki/sources/langchain-mcp-adapters.md`, `wiki/entities/langchain-mcp-adapters.md`, `wiki/concepts/mcp-to-langchain-adaptation.md`, `wiki/analyses/langchain-mcp-adapters-integration-checklist.md`, `wiki/home.md`, `wiki/index.md`, `wiki/meta/open-questions.md`.
+- Follow-ups: compare adapter-based MCP integration against native framework tools, and clarify which transport/session patterns are appropriate for production deployments.

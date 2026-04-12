@@ -22,5 +22,7 @@ Use this page to track important unanswered questions, missing evidence, and lea
 - Decide which skill scopes and trust rules matter most if this knowledge base grows into an implementation-focused agent project.
 - Compare Deep Agents-style filesystem-backed compression with other long-running agent memory patterns such as databases, replay, or external vector stores.
 - Decide which context-compression guarantees should be treated as baseline requirements for future agent implementations referenced by this wiki.
+- Decide when MCP interoperability is actually worth the added transport/session complexity versus writing native framework tools directly.
+- Compare `langchain-mcp-adapters` with other MCP integration approaches, especially around auth, observability, and session reuse.
 - Retrieve the full Kaggle Titanic schema and confirm whether any important columns are still omitted by [[sources/titanic-dataset]].
 - Decide whether this wiki should grow a broader machine-learning datasets branch or keep dataset ingests lightweight.
