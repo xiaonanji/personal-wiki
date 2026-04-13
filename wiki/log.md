@@ -3,7 +3,7 @@ type: meta
 title: Log
 status: active
 created: 2026-04-06
-updated: 2026-04-12
+updated: 2026-04-13
 ---
 
 # Log
@@ -103,3 +103,27 @@ Append-only record of major wiki operations.
 - Updated the home page, index, and open questions to reflect a new focus area around MCP, LangChain, and LangGraph interoperability.
 - Pages touched: `wiki/sources/langchain-mcp-adapters.md`, `wiki/entities/langchain-mcp-adapters.md`, `wiki/concepts/mcp-to-langchain-adaptation.md`, `wiki/analyses/langchain-mcp-adapters-integration-checklist.md`, `wiki/home.md`, `wiki/index.md`, `wiki/meta/open-questions.md`.
 - Follow-ups: compare adapter-based MCP integration against native framework tools, and clarify which transport/session patterns are appropriate for production deployments.
+
+## [2026-04-13] ingest | ZP Application Score 2022 Bundle
+
+- Scanned the latest raw inbox resources and grouped four related Zip Pay application-score documents into a single source bundle for reuse.
+- Captured the scorecard lifecycle from original 2022 design and implementation through 2026 monitoring and a proposed rebuild path.
+- Updated the Zip Co entity and open questions so future work can branch into scorecard governance, drift, and rebuild outcomes.
+- Pages touched: `wiki/sources/zp-application-score-2022-bundle.md`, `wiki/entities/zip-co.md`, `wiki/index.md`, `wiki/meta/open-questions.md`, `wiki/log.md`.
+- Follow-ups: identify the unstable variables, confirm whether the rebuild shipped, and decide whether to split this branch into dedicated concept or analysis pages later.
+
+## [2026-04-13] ingest | ZP Application Score 2022 Bundle (refreshed clips)
+
+- Re-ingested the four ZP App Score raw resources after a richer Confluence re-extraction replaced the earlier clipped markdown.
+- Updated the existing source bundle in place with the new raw filenames, more precise monitoring dates, the full three-way outcome labeling, the explicit 13-feature set, and a clip-quality caveat.
+- Preserved the remaining uncertainty that the refreshed clips still do not explicitly identify which new redevelopment features only started populating after June 2025.
+- Pages touched: `wiki/sources/zp-application-score-2022-bundle.md`, `wiki/log.md`.
+- Follow-ups: confirm feature rollout timing from a fuller export or source-of-truth table, and decide whether to add a dedicated redevelopment analysis page once the availability issue is resolved.
+
+## [2026-04-13] query | ZP App Score Redevelopment Options
+
+- Filed a durable analysis that captures the redevelopment tradeoffs around same-target rebuilding, waiting for more mature post-rollout sample, shortening the performance window, running dual tracks, and using hybrid segmentation.
+- Explicitly recorded the concern that a 6-month target is likely too immature and noisy to serve as a clean like-for-like underwriting replacement, even if it is useful for challenger work.
+- Updated the source bundle connections, open questions, and index so this redevelopment reasoning is discoverable alongside the underlying ZP score documentation.
+- Pages touched: `wiki/analyses/zp-app-score-redevelopment-options.md`, `wiki/sources/zp-application-score-2022-bundle.md`, `wiki/meta/open-questions.md`, `wiki/index.md`, `wiki/log.md`.
+- Follow-ups: confirm post-June-2025 feature rollout timing, estimate bad counts under each candidate sample design, and decide whether the near-term priority is a clean replacement or a richer-feature challenger.

@@ -3,7 +3,7 @@ type: entity
 title: Zip Co
 status: active
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-13
 tags:
   - entity
   - company
@@ -11,6 +11,7 @@ tags:
   - buy-now-pay-later
 sources:
   - "[[sources/dpd-definition-data-risk]]"
+  - "[[sources/zp-application-score-2022-bundle]]"
 ---
 
 # Zip Co
@@ -32,6 +33,10 @@ sources:
   - Booking system: Tango
   - Data warehouse: Uses `prod_source` and `prod_prep` schemas
   - Key tracking table: `stg_batchoperations_account_daily_summary`
+- **Credit Risk Modeling**:
+  - Uses application scorecards for products such as Zip Pay
+  - Internal monitoring tracks discrimination, calibration, and PSI over time
+  - At least one scorecard branch shows model deterioration by 2025-Q2 and triggered a 2026 rebuild proposal
 
 ## Relationships
 
@@ -42,6 +47,7 @@ sources:
 
 - Specific founding date and company history not available from current sources
 - 2026-04-08: Technical documentation on DPD calculation methods captured
+- 2026-04-13: ZP Application Score 2022 bundle captured, including development notes, implementation logic, monitoring, and rebuild proposal
 
 ## Open Questions
 
@@ -50,9 +56,12 @@ sources:
 - What other markets does Zip operate in beyond Australia?
 - What is the total customer base and portfolio size?
 - What regulatory framework governs Zip's operations?
+- How many materially different internal scorecards are used across Zip products and geographies?
+- Which monitoring thresholds or governance rules trigger scorecard rebuilds?
 
 ## Related Pages
 
 - [[sources/dpd-definition-data-risk]] - Technical specification for DPD tracking across Zip products
+- [[sources/zp-application-score-2022-bundle]] - Documentation bundle for Zip Pay application score development, implementation, monitoring, and proposed refresh
 - [[concepts/days-past-due-dpd]] - Credit risk metric used to track Zip customer payment performance
 - [[concepts/months-past-due-mpd]] - Reporting metric specific to Zip Pay and Zip Plus products

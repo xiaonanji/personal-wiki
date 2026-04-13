@@ -3,7 +3,7 @@ type: meta
 title: Index
 status: active
 created: 2026-04-06
-updated: 2026-04-12
+updated: 2026-04-13
 ---
 
 # Index
@@ -26,6 +26,7 @@ The catalog of maintained wiki pages.
 - [[sources/langchain-mcp-adapters]] - Library documentation for adapting MCP tools, prompts, and resources into LangChain and LangGraph systems.
 - [[sources/titanic-dataset]] - Source note for a Kaggle-style dataset description of Titanic survival prediction.
 - [[sources/dpd-definition-data-risk]] - Technical specification for Days Past Due (DPD) calculation across Zip products with SQL implementation examples.
+- [[sources/zp-application-score-2022-bundle]] - Bundled source note covering Zip Pay's 2022 application score design, implementation, monitoring deterioration, and 2026 rebuild proposal.
 
 ## Entities
 
@@ -67,6 +68,7 @@ The catalog of maintained wiki pages.
 - [[analyses/langchain-mcp-adapters-integration-checklist]] - Durable integration checklist for using MCP servers from LangChain and LangGraph.
 - [[analyses/personal-small-model-plus-cloud-frontier-model]] - Proposed architecture where a user-specific small model compresses personal history and collaborates with a cloud frontier model.
 - [[analyses/titanic-dataset-feature-summary]] - Current feature and target summary for the ingested Titanic dataset description.
+- [[analyses/zp-app-score-redevelopment-options]] - Tradeoff analysis of current-feature, wait-and-rebuild, shortened-window, dual-track, and hybrid redevelopment paths for the ZP application score.
 
 ## Meta
 

@@ -3,7 +3,7 @@ type: meta
 title: Open Questions
 status: active
 created: 2026-04-06
-updated: 2026-04-12
+updated: 2026-04-13
 ---
 
 # Open Questions
@@ -26,3 +26,7 @@ Use this page to track important unanswered questions, missing evidence, and lea
 - Compare `langchain-mcp-adapters` with other MCP integration approaches, especially around auth, observability, and session reuse.
 - Retrieve the full Kaggle Titanic schema and confirm whether any important columns are still omitted by [[sources/titanic-dataset]].
 - Decide whether this wiki should grow a broader machine-learning datasets branch or keep dataset ingests lightweight.
+- Identify which 7 of 13 variables in [[sources/zp-application-score-2022-bundle]] became unpredictable and whether the issue was drift, leakage loss, or business-process change.
+- Determine whether the proposed 2026 rebuild for [[sources/zp-application-score-2022-bundle]] was implemented and how its monitoring results compare with the 2022 model.
+- Quantify whether the post-rollout ZP redevelopment sample is large enough in bad counts and usable observations to support a same-target rebuild with the new application features.
+- Decide whether any 6-month-window challenger should remain exploratory or be considered a legitimate underwriting replacement target.
