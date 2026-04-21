@@ -3,7 +3,7 @@ type: meta
 title: Log
 status: active
 created: 2026-04-06
-updated: 2026-04-13
+updated: 2026-04-21
 ---
 
 # Log
@@ -127,3 +127,18 @@ Append-only record of major wiki operations.
 - Updated the source bundle connections, open questions, and index so this redevelopment reasoning is discoverable alongside the underlying ZP score documentation.
 - Pages touched: `wiki/analyses/zp-app-score-redevelopment-options.md`, `wiki/sources/zp-application-score-2022-bundle.md`, `wiki/meta/open-questions.md`, `wiki/index.md`, `wiki/log.md`.
 - Follow-ups: confirm post-June-2025 feature rollout timing, estimate bad counts under each candidate sample design, and decide whether the near-term priority is a clean replacement or a richer-feature challenger.
+
+## [2026-04-21] ingest | Change Management Wiki
+
+- Ingested the new `raw/inbox/Change Management Wiki/` bundle as a practical organizational-change playbook rather than copying each raw page into a one-to-one wiki mirror.
+- Created one bundled source note, three reusable concept pages, and one checklist analysis covering the lifecycle from change framing through sponsorship, rollout, launch readiness, and post-launch adoption monitoring.
+- Recorded that the markdown bundle cites `Change management template.pdf`, but that upstream PDF was not present anywhere under `raw/` at ingest time.
+- Pages touched: `wiki/sources/change-management-wiki-bundle.md`, `wiki/concepts/organizational-change-management.md`, `wiki/concepts/change-sponsorship-and-governance.md`, `wiki/concepts/change-adoption-monitoring.md`, `wiki/analyses/change-management-delivery-checklist.md`, `wiki/home.md`, `wiki/index.md`, `wiki/meta/open-questions.md`, `wiki/log.md`.
+- Follow-ups: compare this branch against named change frameworks such as ADKAR or Kotter, and decide whether later sources warrant dedicated pages for stakeholder mapping, readiness assessment, or resistance management.
+
+## [2026-04-21] ingest | Change Management Wiki (source provenance update)
+
+- Updated the change-management source page after the original `Change management template.pdf` was added to the same raw bundle folder.
+- Added the PDF path to the source page's `raw_sources` and replaced the earlier missing-file note with an explicit link to the original source artifact.
+- Pages touched: `wiki/sources/change-management-wiki-bundle.md`, `wiki/log.md`.
+- Follow-ups: if needed later, compare the PDF directly with the derived markdown notes to see whether any material sections were omitted or reframed.

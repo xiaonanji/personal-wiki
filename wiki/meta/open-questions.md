@@ -3,7 +3,7 @@ type: meta
 title: Open Questions
 status: active
 created: 2026-04-06
-updated: 2026-04-13
+updated: 2026-04-21
 ---
 
 # Open Questions
@@ -30,3 +30,5 @@ Use this page to track important unanswered questions, missing evidence, and lea
 - Determine whether the proposed 2026 rebuild for [[sources/zp-application-score-2022-bundle]] was implemented and how its monitoring results compare with the 2022 model.
 - Quantify whether the post-rollout ZP redevelopment sample is large enough in bad counts and usable observations to support a same-target rebuild with the new application features.
 - Decide whether any 6-month-window challenger should remain exploratory or be considered a legitimate underwriting replacement target.
+- Compare [[sources/change-management-wiki-bundle]] with named frameworks such as ADKAR, Kotter, or Prosci to see which concepts are aligned, missing, or oversimplified.
+- Decide whether future change-management ingests justify dedicated pages for stakeholder mapping, readiness assessment, resistance management, or learning-hub design.
