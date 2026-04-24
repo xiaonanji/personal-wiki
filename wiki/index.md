@@ -74,6 +74,7 @@ The catalog of maintained wiki pages.
 - [[analyses/titanic-dataset-feature-summary]] - Current feature and target summary for the ingested Titanic dataset description.
 - [[analyses/zp-app-score-redevelopment-options]] - Tradeoff analysis of current-feature, wait-and-rebuild, shortened-window, dual-track, and hybrid redevelopment paths for the ZP application score.
 - [[analyses/change-management-delivery-checklist]] - End-to-end checklist for planning and delivering organizational change from framing through 30-60-90 day adoption reviews.
+- [[analyses/authentication-authorization-beginner-guide]] - Beginner-friendly blog-style guide to authentication, authorization, sessions, cookies, JWT, OAuth2, OIDC, SSO, and SAML.
 
 ## Meta
 

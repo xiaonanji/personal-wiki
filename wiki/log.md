@@ -142,3 +142,10 @@ Append-only record of major wiki operations.
 - Added the PDF path to the source page's `raw_sources` and replaced the earlier missing-file note with an explicit link to the original source artifact.
 - Pages touched: `wiki/sources/change-management-wiki-bundle.md`, `wiki/log.md`.
 - Follow-ups: if needed later, compare the PDF directly with the derived markdown notes to see whether any material sections were omitted or reframed.
+
+## [2026-04-24] query | Authentication and Authorization Beginner Guide
+
+- Filed a beginner-friendly Chinese blog-style guide explaining authentication, authorization, Basic Auth, Digest Auth, API keys, sessions, cookies, bearer tokens, JWT, access/refresh tokens, OAuth2, OpenID Connect, SSO, and SAML.
+- Enriched the original video-derived outline with external references from MDN, IETF RFCs, OpenID Foundation, and OWASP security cheat sheets.
+- Pages touched: `wiki/analyses/authentication-authorization-beginner-guide.md`, `wiki/index.md`, `wiki/log.md`.
+- Follow-ups: optionally split durable security-practice details into dedicated concept pages if this wiki grows a broader web-security branch.
