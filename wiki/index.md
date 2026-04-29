@@ -3,7 +3,7 @@ type: meta
 title: Index
 status: active
 created: 2026-04-06
-updated: 2026-04-21
+updated: 2026-04-29
 ---
 
 # Index
@@ -28,6 +28,7 @@ The catalog of maintained wiki pages.
 - [[sources/dpd-definition-data-risk]] - Technical specification for Days Past Due (DPD) calculation across Zip products with SQL implementation examples.
 - [[sources/zp-application-score-2022-bundle]] - Bundled source note covering Zip Pay's 2022 application score design, implementation, monitoring deterioration, and 2026 rebuild proposal.
 - [[sources/change-management-wiki-bundle]] - Bundled practical notes converting a template-driven change-management resource into a reusable organizational-change playbook.
+- [[sources/clv-b-score-gbix-definition]] - Internal Data & Risk definition of GBIX labels for a customer-level CLV b-score modelling sample.
 
 ## Entities
 
@@ -62,6 +63,8 @@ The catalog of maintained wiki pages.
 - [[concepts/organizational-change-management]] - Practical discipline for framing change, aligning sponsorship, preparing rollout, and sustaining adoption.
 - [[concepts/change-sponsorship-and-governance]] - Sponsor visibility, owner clarity, champions, and decision rights that keep change delivery moving.
 - [[concepts/change-adoption-monitoring]] - Post-launch measurement and intervention loop for tracking whether the new way of working is actually taking hold.
+- [[concepts/gbix-labeling]] - Ordered good, bad, indeterminate, and exclusion labels used for credit-risk modelling samples.
+- [[concepts/clv-b-score-modeling-sample]] - Customer-level CLV b-score sample construction from snapshot account holdings and 12-month outcomes.
 
 ## Analyses
 
@@ -74,6 +77,7 @@ The catalog of maintained wiki pages.
 - [[analyses/titanic-dataset-feature-summary]] - Current feature and target summary for the ingested Titanic dataset description.
 - [[analyses/zp-app-score-redevelopment-options]] - Tradeoff analysis of current-feature, wait-and-rebuild, shortened-window, dual-track, and hybrid redevelopment paths for the ZP application score.
 - [[analyses/change-management-delivery-checklist]] - End-to-end checklist for planning and delivering organizational change from framing through 30-60-90 day adoption reviews.
+- [[analyses/clv-b-score-gbix-implementation-checklist]] - Implementation review checklist for building and validating CLV b-score GBIX labels.
 
 ## Meta
 

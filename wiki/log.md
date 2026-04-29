@@ -142,3 +142,11 @@ Append-only record of major wiki operations.
 - Added the PDF path to the source page's `raw_sources` and replaced the earlier missing-file note with an explicit link to the original source artifact.
 - Pages touched: `wiki/sources/change-management-wiki-bundle.md`, `wiki/log.md`.
 - Follow-ups: if needed later, compare the PDF directly with the derived markdown notes to see whether any material sections were omitted or reframed.
+
+## [2026-04-29] ingest | CLV b-score GBIX Definition
+
+- Ingested the newest raw inbox source defining GBIX labels for a customer-level CLV b-score modelling sample.
+- Created a clean source page, two reusable concept pages for GBIX labeling and CLV b-score sample construction, and an implementation-oriented checklist analysis.
+- Updated existing Zip Co, DPD, credit-risk bucketing, and ZP application-score pages to cross-link the new modelling-label branch without treating model-specific label differences as contradictions.
+- Pages touched: `wiki/sources/clv-b-score-gbix-definition.md`, `wiki/concepts/gbix-labeling.md`, `wiki/concepts/clv-b-score-modeling-sample.md`, `wiki/analyses/clv-b-score-gbix-implementation-checklist.md`, `wiki/entities/zip-co.md`, `wiki/concepts/days-past-due-dpd.md`, `wiki/concepts/credit-risk-bucketing.md`, `wiki/sources/zp-application-score-2022-bundle.md`, `wiki/home.md`, `wiki/index.md`, `wiki/meta/open-questions.md`, `wiki/log.md`.
+- Follow-ups: confirm the formal meaning of b-score, identify product/geography scope, confirm which DPD field is used, locate the production SQL/dbt implementation, and rerun qmd embedding once Node/npm is available on this laptop.

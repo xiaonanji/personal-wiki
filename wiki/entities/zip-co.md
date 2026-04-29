@@ -3,7 +3,7 @@ type: entity
 title: Zip Co
 status: active
 created: 2026-04-08
-updated: 2026-04-13
+updated: 2026-04-29
 tags:
   - entity
   - company
@@ -12,6 +12,7 @@ tags:
 sources:
   - "[[sources/dpd-definition-data-risk]]"
   - "[[sources/zp-application-score-2022-bundle]]"
+  - "[[sources/clv-b-score-gbix-definition]]"
 ---
 
 # Zip Co
@@ -37,6 +38,7 @@ sources:
   - Uses application scorecards for products such as Zip Pay
   - Internal monitoring tracks discrimination, calibration, and PSI over time
   - At least one scorecard branch shows model deterioration by 2025-Q2 and triggered a 2026 rebuild proposal
+  - Uses GBIX-style labels for at least one customer-level CLV b-score modelling sample, with customer-level labels derived from account holdings and 12-month account outcomes
 
 ## Relationships
 
@@ -48,6 +50,7 @@ sources:
 - Specific founding date and company history not available from current sources
 - 2026-04-08: Technical documentation on DPD calculation methods captured
 - 2026-04-13: ZP Application Score 2022 bundle captured, including development notes, implementation logic, monitoring, and rebuild proposal
+- 2026-04-29: CLV b-score GBIX definition captured, including customer/account exclusions and 12-month bad/indeterminate/good outcome rules
 
 ## Open Questions
 
@@ -58,10 +61,13 @@ sources:
 - What regulatory framework governs Zip's operations?
 - How many materially different internal scorecards are used across Zip products and geographies?
 - Which monitoring thresholds or governance rules trigger scorecard rebuilds?
+- What does "b-score" formally mean in the CLV model context, and which products are included?
 
 ## Related Pages
 
 - [[sources/dpd-definition-data-risk]] - Technical specification for DPD tracking across Zip products
 - [[sources/zp-application-score-2022-bundle]] - Documentation bundle for Zip Pay application score development, implementation, monitoring, and proposed refresh
+- [[sources/clv-b-score-gbix-definition]] - Definition of GBIX labels for a customer-level CLV b-score modelling sample
 - [[concepts/days-past-due-dpd]] - Credit risk metric used to track Zip customer payment performance
 - [[concepts/months-past-due-mpd]] - Reporting metric specific to Zip Pay and Zip Plus products
+- [[concepts/gbix-labeling]] - Good, bad, indeterminate, and exclusion labels used in modelling sample construction

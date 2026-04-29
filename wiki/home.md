@@ -3,7 +3,7 @@ type: meta
 title: Wiki Home
 status: active
 created: 2026-04-06
-updated: 2026-04-21
+updated: 2026-04-29
 ---
 
 # Wiki Home
@@ -13,7 +13,7 @@ This is the top-level overview for the knowledge base.
 ## Current State
 
 - The wiki scaffold exists.
-- Ten source bundles or documents have been ingested.
+- Eleven source bundles or documents have been ingested.
 - `[[index]]` is the navigation catalog.
 - `[[log]]` is the chronological activity record.
 
@@ -28,6 +28,7 @@ This is the top-level overview for the knowledge base.
 - MCP interoperability for LangChain and LangGraph-based agents
 - Dataset-oriented machine-learning notes, currently seeded by the Titanic prediction task
 - Credit risk metrics and implementation in fintech lending products (DPD, MPD, arrears tracking)
+- Credit-risk modelling sample construction, including GBIX labels for CLV b-score development
 - Organizational change management practices for framing change, aligning sponsorship, preparing rollout, and sustaining adoption
 
 ## How To Use

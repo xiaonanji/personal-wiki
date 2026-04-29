@@ -3,7 +3,7 @@ type: source
 title: ZP Application Score 2022 Bundle
 status: active
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-29
 tags:
   - source
   - finance
@@ -124,6 +124,7 @@ application_features["app_age"] = (app_time - dob).days / 365.25
 - Related concepts:
   - [[concepts/days-past-due-dpd]]
   - [[concepts/months-past-due-mpd]]
+  - [[concepts/gbix-labeling]]
 - Related analysis:
   - [[analyses/zp-app-score-redevelopment-options]]
 
@@ -140,3 +141,4 @@ application_features["app_age"] = (app_time - dob).days / 365.25
 - Was the proposed 2026 rebuild ever implemented, and if so how did it compare with the 2022 score?
 - Which of the candidate added features were only populated after June 2025, and were any of them backfilled?
 - Should this wiki add a dedicated concept page for application scorecards or score monitoring in the Zip/Data & Risk branch?
+- Does the ZP application-score rebuild use the same GBIX implementation as [[sources/clv-b-score-gbix-definition]], or only the same high-level good/bad/indeterminate/exclusion pattern?

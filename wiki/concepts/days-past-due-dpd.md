@@ -3,7 +3,7 @@ type: concept
 title: Days Past Due (DPD)
 status: active
 created: 2026-04-08
-updated: 2026-04-08
+updated: 2026-04-29
 tags:
   - concept
   - credit-risk
@@ -11,6 +11,7 @@ tags:
   - metrics
 sources:
   - "[[sources/dpd-definition-data-risk]]"
+  - "[[sources/clv-b-score-gbix-definition]]"
 ---
 
 # Days Past Due (DPD)
@@ -49,6 +50,15 @@ Common categorization ranges used in credit risk analysis:
 - Late delinquency: 90-120, 120-150, 150-180 days
 - Severe delinquency: 180+ days
 - Write-off: Accounts charged off as uncollectible
+
+### Model-Label Thresholds
+
+The [[sources/clv-b-score-gbix-definition]] source uses DPD thresholds as part of GBIX labelling for a customer-level CLV b-score modelling sample:
+
+- `91+ DPD` ever during the next 12 months is a bad account outcome.
+- `3` to `90` DPD ever during the next 12 months is an indeterminate account outcome.
+
+The source does not specify whether this threshold uses booking DPD, reporting DPD, or a product-specific delinquency field.
 
 ## Supporting Evidence
 
@@ -90,6 +100,7 @@ For products with fixed monthly due dates, Months Past Due (MPD) may be more mea
 - [[concepts/months-past-due-mpd]] - Alternative metric counting missed payment cycles
 - [[concepts/arrears-balance]] - Amount of outstanding unpaid debt
 - [[concepts/credit-risk-bucketing]] - Method of categorizing accounts by delinquency severity
+- [[concepts/gbix-labeling]] - Ordered modelling-label framework that uses DPD thresholds in the CLV b-score source
 
 ## Related Analyses
 
